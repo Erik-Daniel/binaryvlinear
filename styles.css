@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.binary {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.linear {
+    width: 100%;
+    text-align: center;
+
+}
+.title {
+    color: white;
+
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+}
+#input {
+    margin: 5px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(20,5%);
+    grid-template-rows: repeat(5,50%);
+}
+
+.cell {
+    width: 100%;
+    border: 1px solid black;
+}
