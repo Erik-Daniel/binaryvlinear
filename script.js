@@ -62,12 +62,10 @@ function searchNumber(number) {
 }
 
 function binarySearch(number) {
-    console.log("current lookingNumber = " + bLookingNumber);
     
     if(bLookingNumber === parseInt(number)){
         clearInterval(binaryInterval);
         getNumber("binary",number,"found");
-        console.log("complete")
     }
     else {
         if(bLookingNumber > number){
