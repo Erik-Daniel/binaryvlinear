@@ -27,7 +27,7 @@ h1 {
     color: white;
 
 }
-.input-container {
+#inputContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -43,10 +43,24 @@ label {
 .table {
     display: grid;
     grid-template-columns: repeat(20,5%);
-    grid-template-rows: repeat(5,50%);
+    grid-template-rows: repeat(5,30%);
+    margin: 15px;
 }
 
 .cell {
-    width: 100%;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+#error {
+    color: red;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 1.3vw;
 }
